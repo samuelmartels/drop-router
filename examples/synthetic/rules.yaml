@@ -1,0 +1,6 @@
+direct_m: 30
+max_lead_in_m: 30
+max_route_m: 150
+max_span_m: 60
+pole_snap_m: 15
+side_neutral_m: 1.0

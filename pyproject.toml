@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "drop-router"
+version = "0.1.0"
+description = "Is there a viable pole-to-pole route for a drop cable from a terminal to a point? Street-graph routing with support-chain rules (span, lead-in, street side, blocking avenues)."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas", "geopandas>=0.14", "shapely>=2.0", "networkx>=3.0", "pyyaml"]
+keywords = ["ftth", "gis", "routing", "dijkstra", "micromouse", "network-planning"]
+
+[project.scripts]
+drop-router = "drop_router.cli:main"
+
+[tool.setuptools]
+packages = ["drop_router"]

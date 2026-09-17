@@ -1,0 +1,8 @@
+id,terminal_id,x,y
+A1_direct,T1,102.0,37.5
+B1_chain,T1,52.0,37.5
+C1_corner,T1,52.5,70.0
+B2_external,T1,157.5,78.0
+N7_too_far,T1,52.5,150.0
+N6_avenue,T_av,100.0,103.5
+E1_alternative,T_av,104.0,37.5
